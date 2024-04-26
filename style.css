@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#welcome > label {
+    display: block;
+    font-weight: bold;
+    margin: 3px;
+    font-size: large;
+}
+
+#welcome > input {
+    padding: 3px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p {
+    padding: 0.5em;
+}

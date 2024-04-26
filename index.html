@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="F.Huertas">
+    <meta name="keywords" content="JavaScript, Practice">
+    <link rel="stylesheet" href="style.css">
+    <title>Cater Hire</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Cater Hire Dublin</h1><br>
+    <h3 style="text-align: center;"><i>for all your catering needs!!</i></h3><br>
+    <fieldset>
+        <form action="" id="welcome" method="post">
+            <label for="firstName">First Name :</label>
+            <input type="text" id="firstName" maxlength="10"><br>
+
+            <label for="lastName">Last Name :</label>
+            <input type="text" id="lastName" maxlength="10"><br>
+
+            <label for="age">Contact Number :</label>
+            <input type="number" id="contactNumber" maxlength="10"><br>
+
+            <label for="county">County :</label>
+            <input type="text" id="county" maxlength="20"><br><br>
+
+            <label>Type of Cuisine Food :</label>
+            <input type="text" id="favouriteFood" placeholder="e.g Italian, Chinese etc" maxlength="15"><br><br>
+
+            <input type="button" id="button" value="Submit" onclick="welcomeGuest(); faveCuisine();"><br>
+            <p id="textOutcome"></p>
+            <p id="textOutcome2"></p>
+        </form>
+    </fieldset>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
